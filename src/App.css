@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.Scrobbles{
+  width: 800px;
+  margin: 0 auto;
+}
+
+.Scrobbles div{
+  width: 800px;
+  height: 34px;
+  border-bottom: 1px solid whitesmoke;
+}
+
+.Scrobbles div:nth-of-type(odd) {
+    background: #e0e0e0;
+}
+
+.scrobble p{
+  text-align: left;
+  float: left;
+  margin: 0px;
+  display: inline-block;
+  vertical-align: top;
+  vertical-align: top;
+  line-height: 34px;
+  margin-left: 10px;
+  max-width: 550px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.scrobble p:last-child{
+  float:right;
+  margin-left: 0px;
+  margin-right: 15px;
+}
+
+.scrobble img{
+  display: inline-block;
+  float:left;
+}
+
+.scrobble p span{
+  float: right;
+
+}
